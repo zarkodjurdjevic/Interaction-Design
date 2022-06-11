@@ -1,0 +1,321 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #252538;
+}
+.Home{
+  background-color: #252538;
+  background-position: center;
+  overflow-x: hidden;
+  position: relative;  
+  background-size: cover;
+  height: 100vh;
+  
+
+
+}
+.eerstkop{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: rgb(247, 244, 244);
+  margin-top: 8%;
+}
+.tekst1{
+  
+    justify-content: center;
+    width: 40vh;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: 10%;
+}
+.fotozarko{
+  width: 550px;
+  margin-right: auto;
+  margin-top: auto;
+  
+  justify-content: center;
+  
+  
+}
+.knoppp{
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #33D67E;
+    font-size: medium;
+    color: white;
+    border-radius: 20px;
+    border: #33D67E;
+    font-weight: 500;
+    
+}
+.knoppp:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border: #33D67E;
+    font-size: medium;
+    
+}
+.naam{
+    font-size: 50px;
+}
+.mywork{
+  background-color: #252538;
+  min-height: 100%;
+  border: #33D67E 5px solid;
+  
+}
+
+
+.navbar {
+    display: flex;
+    
+    justify-content:space-around;
+    align-items: center;
+    background-color: #252538;
+    color: rgb(250, 247, 247);
+    
+    width: 100%;
+    
+}
+
+.brand-title {
+    font-size: 2.5rem;
+    margin: .5rem;
+}
+.navbar-links ul {
+    display: flex;
+    margin: 10px;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(254, 245, 245);
+    padding: 2rem;
+    font-size: 18px;
+}
+.navbar-links li a:hover {
+    display: block;
+    text-decoration: none;
+    color: #33D67E;
+    transition: .1s;
+    border-radius: 15px;
+    border-bottom: #33D67E;
+    background-color: #1d1d2a;
+}
+
+
+
+
+
+.toggle-button {
+    position: absolute;
+    top: 1.40rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #33D67E;
+    border-radius: 10px;
+}
+ul{
+	list-style: none;
+}
+
+.navbar{
+    display: flex;
+    
+
+}
+
+.overmij{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: #33D67E 5px solid;
+    background-color: #33D67E;
+    border-radius: 25px;
+}
+.overmij1{
+    padding: 40px;
+    background-color: #252538;
+}
+.skills{
+    height: 100vh;
+    background-color: #252538;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    background-color: #ffffff;
+    
+    border-radius: 8px;
+    box-shadow: 20px 20px 40px rgba(60, 60, 150, 0.25);
+    display: grid;
+    place-items: center;
+  }
+  .circular-progress {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background-color: red;
+  }
+  .circular-progress:before {
+    content: "";
+    position: absolute;
+    height: 84%;
+    width: 84%;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+  .value-container {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    color: #231c3d;
+  }
+
+
+@media (max-width: 600px) {
+
+    li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+        background-color:#1d1d2a;
+    }
+    
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    
+   
+    
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+
+   
+      
+   
+    
+
+
+}
+.card{
+    width: 250px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(../afb/coding.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    border: solid 2px #1d1d2a;
+    background-color: #1d1d2a;
+    text-align: center;
+    justify-content: center;
+    place-content: center;
+    
+}   
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.card1{
+    
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 14px #ccc;
+}
+.card2{
+    
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 14px #ccc;
+}
+.card3{
+    
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 14px #ccc;
+    border: 1px solid white;
+}
+
+.card4{
+    
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 14px #ccc;
+}
+.card:hover{
+    transform: translateY(-10px);
+    border: solid 2px #33D67E;
+    box-shadow: none;
+    
+    
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
