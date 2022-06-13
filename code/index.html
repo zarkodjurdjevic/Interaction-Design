@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../code/style.CSS">
     <script src="../code/script.js" defer></script>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Zarko Portfolio</title>
 </head>
 <body>
@@ -32,18 +33,23 @@
         </div>
     </nav>
 <section class="Home">
-    
-    
+        <ul style="display: grid;">
+            <i class="fa fa-instagram" aria-hidden="true" style="color: #2CE27F; font-size: 60px; cursor: pointer;"></i>
+            <i class="fa fa-linkedin-square" aria-hidden="true" style="color: #2CE27F; font-size: 60px; cursor: pointer;"></i>
+            <i class="fa fa-github-square" aria-hidden="true" style="color: #2CE27F; font-size: 60px; cursor: pointer;"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true" style="color: #2CE27F; font-size: 60px; cursor: pointer;"></i>
+        </ul>
         <container class="eerstkop">
             
             <div class="tekst1">
-                <h3>Hello, i'm</h3>
-                <h1 class="naam">Zarko Djurdjevic</h1>
+                
+                <h1 class="naam">Hello, i'm <br> <span class="input"></span></h1>
                 <h4>A Software Developer from Amsterdam</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> U, <br>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <button class="knoppp">About me</button>
+                
             </div>
-            <img src="../afb/random.png" alt="" class="fotozarko">
+            <img src="../afb/nieuwe.jpg" alt="" class="fotozarko">
                 
         </container>
         
@@ -51,7 +57,7 @@
 
 
 <section class="mywork">
-    <h1 style="text-align: center; color: white; font-size: 80;">My Work</h1>
+    <h1 style="text-align: center; color: white; font-size: 60px; border-bottom: 3px solid #2CE27F;">Projects</h1>
     <div class="col">
         <div class="card card1">
             <h5>Project</h5>
@@ -69,6 +75,23 @@
             <h5>Project</h5>
             <p>Bekijk hier een van onze projecten voor het bekijken van de coaching</p>
         </div>
+        <div class="card card4">
+            <h5>Project</h5>
+            <p>Bekijk hier een van onze projecten voor het bekijken van de coaching</p>
+        </div>
+        <div class="card card4">
+            <h5>Project</h5>
+            <p>Bekijk hier een van onze projecten voor het bekijken van de coaching</p>
+        </div>
+        <div class="card card4">
+            <h5>Project</h5>
+            <p>Bekijk hier een van onze projecten voor het bekijken van de coaching</p>
+        </div>
+        <div class="card card4">
+            <h5>Project</h5>
+            <p>Bekijk hier een van onze projecten voor het bekijken van de coaching</p>
+        </div>
+
     </div>
 </section>
 <section class="overmij1">
@@ -79,7 +102,10 @@
     <div>
         <h1>Ik ben Zarko Djurdjevic</h1>
         <h3>hierin schrijf ik blablablablab</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> U, <br>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> U, <br>sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> U, <br>sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> U, <br>sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> U, <br>sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> U, <br>sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> U, <br>sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
     </div>
   </div>    
    
@@ -123,6 +149,9 @@
         </div>
     </div>
 </div>
+<footer>
+    
+</footer>
         
             
 
@@ -144,7 +173,15 @@
 
 
 
-    
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".input", {
+        strings:["Zarko Djurdjevic", "Software Developer"],
+        typeSpeed: 140,
+        backSpeed: 110,
+        loop: true,
+    })
+</script>    
     
 </body>
 </html>
