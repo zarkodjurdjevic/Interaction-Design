@@ -167,11 +167,12 @@ ul{
 }
 
 .overmij{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    
+    text-align: center;
     color: white;
     background-color: #252538;
     border-radius: 25px;
+    display: flex;
     
 }
 .overmij1{
@@ -183,7 +184,8 @@ ul{
     height: 100vh;
     background-color: #252538;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.1fr 0.1fr;
+    grid-gap: 30px;
     justify-content: center;
     align-items: center;
 }
@@ -192,10 +194,10 @@ ul{
     width: 420px;
     padding: 50px 0;
     border-radius: 6px;
-    background: #fff;
+    box-shadow: 0 0 10px #ccc;
     flex-direction: column;
     align-items: center;
-    row-gap: 30px;
+    row-gap: 10px;
 }
 .cirkel{
     height: 250px;
@@ -774,7 +776,7 @@ textarea{
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-image: url(../afb/coding.jpg);
+    
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
@@ -796,18 +798,21 @@ textarea{
     -moz-box-shadow: 0 0 3px #ccc;
     -webkit-box-shadow: 0 0 3px #ccc;
     box-shadow: 0 0 14px #ccc;
+    background-image: url(../afb/WTM---Fluidity\ -\ kopie.png);
 }
 .card2{
     
     -moz-box-shadow: 0 0 3px #ccc;
     -webkit-box-shadow: 0 0 3px #ccc;
     box-shadow: 0 0 14px #ccc;
+    background-image: url(../afb/groen\ -\ kopie.PNG);
 }
 .card3{
     
     -moz-box-shadow: 0 0 3px #ccc;
     -webkit-box-shadow: 0 0 3px #ccc;
     box-shadow: 0 0 14px #ccc;
+    background-image: url(../afb/meterr.jpg);
     
 }
 
@@ -816,6 +821,35 @@ textarea{
     -moz-box-shadow: 0 0 3px #ccc;
     -webkit-box-shadow: 0 0 3px #ccc;
     box-shadow: 0 0 14px #ccc;
+    background-image: url(../afb/make.jpg);
+}
+.card5{
+    
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 14px #ccc;
+    background-image: url(../afb/groen\ -\ kopie.PNG);
+}
+.card6{
+    
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 14px #ccc;
+    background-image: url(../afb/fot\ -\ kopie.jpg);
+}
+.card7{
+    
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 14px #ccc;
+    background-image: url(../afb/log2wulf\ -\ kopie.png);
+}
+.card8{
+    
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 14px #ccc;
+    background-image: url(../afb/projectik.jpg);
 }
 .card:hover{
     transform: translateY(-10px);
