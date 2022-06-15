@@ -11,6 +11,8 @@
 <a href="https://drive.google.com/drive/u/0/folders/1Fl6-w26wRvcs92-PZQeTW2KgBkw6kYTy">Visueel ontwerp</a>
 <a href="https://drive.google.com/drive/u/0/folders/1DCYDCxA5ZQIKDrXrhnZddL1lE3Y7F0QO">Persona</a>
 <a href="https://drive.google.com/drive/u/0/folders/1DCYDCxA5ZQIKDrXrhnZddL1lE3Y7F0QO">Wireframe</a>
+---------------------------
+<a href="https://docs.google.com/presentation/d/1iJc7Ila1c51uQefOYqw35xlQMkUbhUQ0/edit#slide=id.p10">Presentatie</a>
 
 
 
